@@ -11,3 +11,21 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+.react-tabs__tab-list {
+    display: flex;
+justify-content: space-between;
+border: none !important;
+}
+.react-tabs__tab{
+margin: 0 auto;
+opacity: 0.6;
+width: 100%;
+border-bottom: 1px solid gray !important;
+    text-align: center;
+}
+
+react-tabs__tab-panel--selected {
+    opacity: 1;
+    border-bottom: 1px solid black !important;
+    border: none !important;
+}
